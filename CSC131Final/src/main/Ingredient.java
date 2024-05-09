@@ -12,7 +12,7 @@ public class Ingredient {
 	}
 	
 	public String toString(double batches) {
-		return Double.toString(quantity * batches) + " " + unit + " ofs " + name;
+		return Double.toString(quantity * batches) + " " + unit + " of " + name;
 	}
 	
 	public String oneLine() {
